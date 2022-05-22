@@ -2,11 +2,12 @@
 
 The files in this repository were used to configure the network depicted below.
 
- 
+ ![image](https://user-images.githubusercontent.com/94761746/169676049-51b16ad0-01b0-4e78-8a02-1b22e6c237e6.png)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file
+ Enter the playbook file
 
 •	filebeat-playbook.yml
 •	metricbeat-playbook.yml
