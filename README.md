@@ -96,7 +96,9 @@ This ELK server is configured to monitor the following machines:
 •	Web-2 (DVWA 2) 10.0.0.7
 
 I have installed the following Beats on these machines:
+
 •	Filebeat
+
 •	Metricebeat
 
 
