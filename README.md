@@ -134,6 +134,7 @@ SSH into the control node and follow the steps below:
 Answer the following questions to fill in the blanks:
 
 Which file is the playbook? Where do you copy it?
+
 /etc/ansible/file/filebeat-config.yml
 
  Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? Edit the etc/ansible/hosts file to add webserver/elkserver IP Address
@@ -159,6 +160,9 @@ you should see the following:
 Commands to run Ansible configuration for Elk-Server are:
 
 ssh sysadmin@(jumpbox public IP)
+
 sudo docker conatiner list -a
+
 sudo docker start (name of container)
+
 sudo docker attach (name of container)
