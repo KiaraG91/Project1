@@ -140,5 +140,20 @@ Which file is the playbook? Where do you copy it?
  
 Which URL do you navigate to in order to check that the ELK server is running? http://13.70.131.137:5601/app/kibana
 
+![Kibana-elk-server](https://user-images.githubusercontent.com/94761746/169677167-ad738772-115c-43f2-966b-d8862b3d75ad.PNG)
+
+Using the filebeat-playbook.yml
+
+•	Create a new playbook in the /etc/ansible/roles/ directory that will install, drop in the updated configuration file, enable and configure system module, run the filebeat setup, and start the filebeat service.
+
+•	Create a new playbook in the /etc/ansible/roles/ directory that will install, drop in the updated configuration file, enable and configure system module, run the metricbeat setup, and start the metricbeat service.
+
+•	Run the playbooks, and navigate back to the installation page on the ELk-Server GUI, click the check data on the Module Status
+
+•	Click the verify incoming Data to check and see the receiving logs from the DVWA machines.
+
+you should see the following:
+
+![Filebeat System log](https://user-images.githubusercontent.com/94761746/169677310-1d1be944-c715-4615-a792-ca7238fbdfcc.PNG)
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
