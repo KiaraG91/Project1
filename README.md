@@ -28,7 +28,9 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting traffic to the network.
 
 What aspect of security do load balancers protect? 
+
 •	Load balancer protects the system from DDoS attacks by shifting attack traffic.
+
 •	Load Balancing contributes to the availability aspect of security in regard to the CIA Triad.
 
 What is the advantage of a jump box?
@@ -38,11 +40,15 @@ What is the advantage of a jump box?
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 
 What does Filebeat watch for?
+
 •	Filebeat watches for any information in the file system which has been changed and when it has.
+
 •	Filebeat watches for log files/location and collects log events.
 
 What does Metricbeat record?
+
 •	Metricbeat takes the metrics and statistics that collects and ships them to the output you specify.
+
 •	Metricbeat records metric and statistical data from the operating system and from services running on the server.
 
 
@@ -74,13 +80,19 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate the configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible easily configures new machines, updates programs, and configurations on hundreds of servers at once, also the process is the same no matter if managing hundreds of machines or just one machine.
 
 What is the main advantage of automating configuration with Ansible?
+
 •	This allows you to deploy to multiple servers using a single playbook.
 
 The playbook implements the following tasks:
+
 •	Install docker.io
+
 •	Install Python-pip
+
 •	Install docker container
+
 •	Launch docker container: elk
+
 •	Command: sysctl -w vm.max_map_count=262144
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
@@ -104,7 +116,9 @@ I have installed the following Beats on these machines:
 
 
 These Beats allow us to collect the following information from each machine:
+
 •	Filebeat monitors log files or locations you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
+
 •	Metricbeat collects metrics from the operating system and from services running on the server.
 
 ### Using the Playbook
