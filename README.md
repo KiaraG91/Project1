@@ -10,6 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
  Enter the playbook file
 
 •	filebeat-playbook.yml
+
 •	metricbeat-playbook.yml
 
 This document contains the following details:
