@@ -156,4 +156,9 @@ you should see the following:
 
 ![Filebeat System log](https://user-images.githubusercontent.com/94761746/169677310-1d1be944-c715-4615-a792-ca7238fbdfcc.PNG)
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+Commands to run Ansible configuration for Elk-Server are:
+
+ssh sysadmin@(jumpbox public IP)
+sudo docker conatiner list -a
+sudo docker start (name of container)
+sudo docker attach (name of container)
