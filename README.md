@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
  ![image](https://user-images.githubusercontent.com/94761746/169676049-51b16ad0-01b0-4e78-8a02-1b22e6c237e6.png)
  
-Diagram/PJ1.drawio
+https://github.com/KiaraG91/Project1/blob/3698618f213d391d3670863763420d189dfe2704/Diagram/PJ1.drawio 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
